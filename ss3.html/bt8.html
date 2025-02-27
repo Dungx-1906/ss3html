@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    label {
+        display: inline-block;
+        width: 20%;
+        margin-bottom: 10px;
+    }
+</style>
+<body>
+    <form action="" method="get">
+        <label for="fullname">Họ và tên: </label>
+        <input type="text" name="fullname" id="fullname"> <br/>
+        <label for="day-of-bith">Ngày sinh: </label>
+        <input type="date" name="day-of-bith" id="day-of-bith"> <br/>
+        <label for="sex">Giới tính: </label>
+        <input type="radio" name="sex" id="sex" value="Nam"> Nam
+        <input type="radio" name="sex" id="sex" value="Nữ"> Nữ <br/>
+        <label for="CCCD">Số căn cước công dân: </label>
+        <input type="number" name="CCCD" id="CCCD"><br/>
+        <label for="date">Ngày cấp: </label>
+        <input type="date" name="data" id="data"><br/>
+        <label for="noi-cap">Nơi cấp: </label>
+        <input type="text" name="noi-cap" id="noi-cap"><br/>
+        <label for="SDT">Số điện thọai: </label>
+        <input type="number" name="SDT" id="SDT"><br/>
+        <label for="email">Email: </label>
+        <input type="email" name="email" id="email"><br/>
+        <label for="Address">Địa chỉ thường trú: </label>
+        <input type="text" name="Address" id="Address"><br/>
+        <label for="Address">Địa chỉ tạm trú: </label>
+        <input type="text" name="Address" id="Address"><br/>
+        <label for="CCCD">Loại căn cước công dân: </label>
+        <input type="radio" name="CCCD" id="CCCD" value="Căn cước công dân mới"> Căn cước công dân mới
+        <input type="radio" name="CCCD" id="CCCD" value="Căn cước công dân cũ"> Căn cước công dân cũ<br/>
+        <label for="nation">Dân tộc: </label>
+        <input type="text" name="nation" id="nation"><br/>
+        <label for="religion">Tôn giáo: </label>
+        <input type="text" name="religion" id="religion"><br/>
+        <label for="nationality">Quốc Tịch: </label>
+        <input type="" name="nationality" id="nationality" value="Việt Nam"><br/>
+        <label for="mo/father">Họ tên cha/mẹ: </label>
+        <input type="text" name="mo/father" id="mo/father"><br/>
+        <label for="CCCD-mo/father">Số CMNN/CCCD của cha/mẹ: </label>
+        <input type="number" name="CCCD-mo/father" id="CCCD-mo/father"><br/>
+        <label for="city">Tỉnh/Thành Phố:</label>
+        <select name="city" id="city">
+            <option value="tinh/tp">Chọn Tỉnh/Thành Phố: </option>
+            <option value="HN">Hà Nội</option>
+            <option value="HCM">TP.Hồ Chí Minh</option>
+        </select><br/>    
+        <button>Gửi thông tin</button>
+        
+    </form>
+</body>
+</html>
